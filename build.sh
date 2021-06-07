@@ -1,0 +1,2 @@
+javac src/main/java/com/ujd/rps/*.java src/main/java/com/ujd/rps/starter/*.java src/main/java/com/ujd/rps/enums/*.java src/main/java/com/ujd/rps/games/*.java src/main/java/com/ujd/rps/util/*.java -d .
+jar cvfe RockPaperScissors.jar com.ujd.rps.RockPaperScissors com/ujd/rps/*.class com/ujd/rps/enums/*.class com/ujd/rps/games/*.class com/ujd/rps/util/*.class com/ujd/rps/starter/*.class

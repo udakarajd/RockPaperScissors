@@ -1,0 +1,6 @@
+out/**
+.idea/**
+com/**
+Mavericks.iml
+*.class
+*.jar
