@@ -17,6 +17,6 @@ class GameFactoryTest {
         } catch (Exception e) {
             exp = e;
         }
-        Assertions.assertTrue(exp != null && exp instanceof IllegalArgumentException);
+        Assertions.assertTrue(exp instanceof IllegalArgumentException);
     }
 }

@@ -2,7 +2,7 @@ package com.ujd.rps;
 
 import com.ujd.rps.starter.GameStarter;
 
-public class RockPaperScissors {
+ class RockPaperScissors {
 
     public static void main(String[] args) {
 

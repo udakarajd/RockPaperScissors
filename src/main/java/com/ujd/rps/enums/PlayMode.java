@@ -8,7 +8,7 @@ public enum PlayMode {
     private static final String COMPUTER_1 = "Computer 1";
     private static final String COMPUTER_2 = "Computer 2";
     private static final String COMPUTER = "Computer";
-    public static final String EXIT_MODE_DOESN_T_HAVE_PLAYERS = "Exit mode doesn't have players";
+    private static final String EXIT_MODE_DOES_NOT_HAVE_PLAYERS = "Exit mode doesn't have players";
     private final int value;
 
     PlayMode() {
@@ -29,13 +29,13 @@ public enum PlayMode {
 
     public String getPlayerOne() {
         if(getValue() == 0)
-            throw new IllegalArgumentException(EXIT_MODE_DOESN_T_HAVE_PLAYERS);
+            throw new IllegalArgumentException(EXIT_MODE_DOES_NOT_HAVE_PLAYERS);
         return getValue() == PlayMode.PLAYER_VS_COMPUTER.getValue() ? YOU : COMPUTER_1;
     }
 
     public String getPlayerTwo() {
         if(getValue() == 0)
-            throw new IllegalArgumentException(EXIT_MODE_DOESN_T_HAVE_PLAYERS);
+            throw new IllegalArgumentException(EXIT_MODE_DOES_NOT_HAVE_PLAYERS);
         return getValue() == PlayMode.PLAYER_VS_COMPUTER.getValue() ? COMPUTER : COMPUTER_2;
     }
 }

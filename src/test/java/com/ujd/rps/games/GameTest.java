@@ -10,18 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class GameTest {
 
-    //@Test
-    void getUserChoice() {
-    }
-
-    //@Test
-    void play() {
-    }
-
-    //@Test
-    void declareWinner() {
-    }
-
     @Test
     void checkWinner() {
 

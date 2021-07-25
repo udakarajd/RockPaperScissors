@@ -4,7 +4,7 @@ public enum Choice {
     ROCK, PAPER, SCISSORS;
 
     private static final String INVALID_CHOICE = "Invalid choice: ";
-    int value;
+    final int value;
 
     Choice() {
         this.value = ordinal();
