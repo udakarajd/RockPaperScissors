@@ -3,7 +3,7 @@ package com.ujd.rps.enums;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PlayModeTest {
 
@@ -26,7 +26,7 @@ class PlayModeTest {
         }catch (Exception e){
             exp = e;
         }
-        Assertions.assertTrue(exp!=null && exp instanceof IllegalArgumentException);
+        Assertions.assertTrue(exp instanceof IllegalArgumentException);
 
     }
 
@@ -42,6 +42,6 @@ class PlayModeTest {
         }catch (Exception e){
             exp2 = e;
         }
-        Assertions.assertTrue(exp2!=null && exp2 instanceof IllegalArgumentException);
+        Assertions.assertTrue(exp2 instanceof IllegalArgumentException);
     }
 }

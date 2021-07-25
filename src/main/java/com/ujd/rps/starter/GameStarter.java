@@ -1,11 +1,11 @@
 package com.ujd.rps.starter;
 
 import com.ujd.rps.enums.PlayMode;
-import com.ujd.rps.games.GameFactory;
 import com.ujd.rps.games.Game;
+import com.ujd.rps.games.GameFactory;
 
-import static com.ujd.rps.util.Utils.getIntegerInputFromUser;
 import static com.ujd.rps.util.Utils.getInputString;
+import static com.ujd.rps.util.Utils.getIntegerInputFromUser;
 
 public class GameStarter {
 
